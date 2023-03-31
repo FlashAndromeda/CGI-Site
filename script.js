@@ -41,7 +41,12 @@ function welcomeMessage() {
 	message.style.opacity = 0;
 }
 
-function playAudio() {
-        var audio = document.getElementById("audio");
+function playReporting() {
+        var audio = document.getElementById("audioReporting");
+        audio.play();
+}
+
+function playNya() {
+        var audio = document.getElementById("audioNya");
         audio.play();
 }

@@ -217,13 +217,18 @@ input {
 }
 
 .uwufied {
-    font-size: 1.8rem;
     color: #ff6ab7;
     font-family: "Balsamiq Sans", "Comic Sans MS";
     font-weight: 400;
-
-    cursor: default;
+    cursor: grab;
     transition: color 0.5s ease-in-out;
+}
+
+#nya {
+    height: 2rem;
+    width: 3.5rem;
+    z-index: 1;
+    cursor: grab;
 }
 
 h1 {
